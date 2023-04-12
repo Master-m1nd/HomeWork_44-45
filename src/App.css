@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Lora-Italic', sans-serif;
+    src: url('/public/Lora-Italic-VariableFont_wght.woff2');
+}
+
+@font-face {
+    font-family: 'Lora-Variable', sans-serif;
+    src: url('/public/Lora-VariableFont_wght.woff2');
+}
+
+* {
+    font-family: 'Lora-Italic';
+}
+
+.container {
+    margin: 0 auto;
+    margin-left: 30px;
+}
+
+h1 {
+    color: #495057;
+    position: relative;
+}
+
+.categoriesWrap {
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.categoryActive {
+    display: flex;
+    position: relative;
+    color: #D4A373;
+    border: none;
+    background-color: white;
+}
+
+.category {
+    border: none;
+    background: white;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.cardWrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.cardImg {
+    width: 310px;
+    height: 280px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.date {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #6C757D;
+}
+
+.title {
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #495057;
+    width: 270px;
+    height: 50px;
+}
+
+.description {
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6C757D;
+    width: 270px;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.authorCard {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.authorInfo {
+    padding-left: 17px;
+}
+
+.authorName {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color:#343A40;
+}
+
+.authorPosition {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #6C757D;
+}
+
+.authorAvatar {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
