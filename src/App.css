@@ -1,15 +1,10 @@
 @font-face {
-    font-family: 'Lora-Italic', sans-serif;
-    src: url('/public/Lora-Italic-VariableFont_wght.woff2');
-}
-
-@font-face {
-    font-family: 'Lora-Variable', sans-serif;
-    src: url('/public/Lora-VariableFont_wght.woff2');
+    font-family: 'Lora-Regular', sans-serif;
+    src: url('/public/Lora-Regular.woff2');
 }
 
 * {
-    font-family: 'Lora-Italic';
+    font-family: 'Lora-Regular';
 }
 
 .container {
